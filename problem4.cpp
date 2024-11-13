@@ -14,7 +14,8 @@ void search(string& s, char& key){
 int main() {
    char c;
    string s;
-   cin >> c ;
+   cin >> c ; //cout <<"salom";
+   cin.ignore();
    getline(cin,s);
    search(s,c);
    //cout << s;
